@@ -32,8 +32,6 @@ working in the C language. I update this repo with my learning progresses with h
 - more projects are coming soon!!
 - I am on my way to be the best software engineer that I  can possibly  be!!
 
-## Author 
-+ [Firdaus H. Salim](linktr.ee/firdaus_h_salim)
 
 ---
 
