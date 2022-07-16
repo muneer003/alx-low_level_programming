@@ -1,19 +1,34 @@
-# Debugging
+Readme file
+TASK 0 0-main.c, main.h
+Based on the main.c file above, create a file named 0-main.c. This file must test that the function positive_or_negative() gives the correct output when given a case of 0.
 
-Project done during **Full Stack Software Engineering studies** at **ALX SE**. Aims at learning how to debug in **C language**.
+You are not coding the solution / function, you’re just testing it! However, you can adapt your function from 0x01. C - Variables, if, else, while - Task #0 to compile with this main file to test locally.
 
-## Technologies
-* C files are compiled using `gcc`
-* C files are written according to the C90 standard
-* Tested on Ubuntu 20.04 LTS
+    You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function.
+    You are not allowed to add or remove lines of code, you may change only one line in this task.
 
-## Files
-All of the following files are programs written in C:
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-main.c` | Test that function `positive_or_negative()` gives the correct output when given a case of `0` |
-| `1-main.c` | Fixed program to the infinite loop |
-| `2-largest_number.c` | Prints the largest of three integers |
-| `3-print_remaining_days.c` | Converts a date to the day of year and determines how many days are left in the year |
-| `main.h` | Header file |
+TASK 1 1-main.c
+Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+
+    Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
+    You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
+
+
+TASK 2 2-largest_number.c, main.h
+? That’s definitely not right.
+
+Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
+
+    Line count will not be checked for this task.
+
+
+TASK 3 3-print_remaining_days.c, main.h
+? That doesn’t seem right.
+
+Fix the print_remaining_days() function so that the output works correctly for all dates and all leap years.
+
+    Line count will not be checked for this task.
+    You can assume that all test cases have valid months (i.e. the value of month will never be less than 1 or greater than 12) and valid days (i.e. the value of day will never be less than 1 or greater than 31).
+    You can assume that all test cases have valid month/day combinations (i.e. there will never be a June 31st or November 31st, etc.), but not all month/day/year combinations are valid (i.e. February 29, 1991 or February 29, 2427).
+

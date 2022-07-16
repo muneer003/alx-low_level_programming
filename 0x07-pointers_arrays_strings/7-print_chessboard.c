@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints the chessboard
- * @a: input pointer.
- * Return: no return.
+ * print_chessboard - Prints a chessboard.
+ * @a: The chessboard to be printed.
  */
 void print_chessboard(char (*a)[8])
 {
-	unsigned int i, m = 0;
+	int index1, index2;
 
-	for (i = 0; i < 64; i++)
+	for (index1 = 0; a[index1][7]; index1++)
 	{
-		if (i % 8 == 0 && i != 0)
-		{
-			m = i;
-			_putchar('\n');
-		}
-		_putchar(a[i / 8][i - m]);
+		for (index2 = 0; index2 < 8; index2++)
+			_putchar(a[index1][index2]);
+
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
