@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
+#include <stdlib.h>
 /**
  * main - Prints the addition of positive numbers,
  *        followed by a new line.
@@ -24,11 +24,8 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-
 		sum += atoi(argv[num]);
 	}
-
 	printf("%d\n", sum);
-
 	return (0);
 }
